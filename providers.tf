@@ -12,7 +12,5 @@ provider "aws" {
 provider "aws" {
   alias = "banana"
   region = var.banana_region
-  shared_credentials_files = ["../.aws/credentials"]
-  profile = "account-banana"
 }
 
